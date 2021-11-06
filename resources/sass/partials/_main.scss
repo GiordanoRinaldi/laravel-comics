@@ -1,0 +1,26 @@
+main {
+    background-color: $mainBackColor;
+    color: white;
+    text-transform: uppercase;
+}
+
+.card{
+    width: 180px;
+    margin-top: 55px;
+}
+
+.img-card{
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.container.d-flex{
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
