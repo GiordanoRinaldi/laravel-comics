@@ -37,3 +37,18 @@ main {
     text-align: center;
     line-height: 60px;
 }
+
+.load-more{
+    & button{
+        width: 185px;
+        height: 37px;
+        background-color: $mainColor;  
+        border: none;
+        color: white;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 15px;
+    }
+    width: 185px;
+    margin: 50px auto 0 auto;
+    padding-bottom: 20px;
+}
