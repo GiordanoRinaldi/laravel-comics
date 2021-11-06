@@ -110,3 +110,9 @@ li.active a {
   position: relative;
   bottom: 1.5px;
 }
+
+.jumbotron {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/jumbotron.jpg");
+}
