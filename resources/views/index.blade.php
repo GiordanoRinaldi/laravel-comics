@@ -2,7 +2,6 @@
 
 @section('pageContent')
     <section>
-        aaa
+        
     </section>
-    
 @endsection

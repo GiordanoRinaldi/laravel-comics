@@ -1,0 +1,84 @@
+header{
+    font-weight: 700;
+
+    .d-flex{
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.container.d-flex{
+    height: 115px;
+}
+
+.img{
+    height: 80px;
+
+    img{
+        max-height: 100%;
+    }
+}
+
+ul{
+    li{
+        margin: 0px 20px;
+        height: 115px;
+        line-height: 115px;
+    }
+}
+
+span{
+    &.active{
+        font-size: 10px;
+        position: relative;
+        bottom: 1.5px;
+        color: $mainColor;
+    }
+}
+
+li.active{
+    a{
+       color: $mainColor; 
+    }
+    border-bottom: 3px solid $mainColor;
+}
+
+.searchbar{
+    input{
+        width: 135px;
+        background-image: url(https://cdn1.iconfinder.com/data/icons/feather-2/24/search-512.png);
+        background-size: 20px;
+        background-position: right center;
+        background-repeat: no-repeat;
+        height: 25px;
+        border: none;
+        border-bottom: 2px solid $mainColor;
+
+        &::placeholder{
+            text-align: end;
+            padding-right: 25px;
+            color: $headerTextColor;
+            font-weight: 700;
+            font-family: 'PT Sans Narrow', sans-serif;
+        }
+    }
+    
+}
+
+.h-top{
+    background-color: $mainColor;
+    color: white;
+    height: 25px;
+
+    .container{
+        text-align: end;
+        line-height: 25px;
+    }
+    
+
+    span.arrow{
+        font-size: 10px;
+        position: relative;
+        bottom: 1.5px;
+    }
+}
