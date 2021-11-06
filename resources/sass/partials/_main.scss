@@ -20,7 +20,20 @@ main {
 }
 
 .container.d-flex{
+    position: relative;
     height: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.current-series{
+    position: absolute;
+    left: 0;
+    top: -30px;
+    height: 60px;
+    width: 260px;
+    background-color: $mainColor;
+    font-size: 23px;
+    text-align: center;
+    line-height: 60px;
 }
