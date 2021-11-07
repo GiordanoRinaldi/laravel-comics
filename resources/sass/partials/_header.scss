@@ -19,13 +19,16 @@ header{
     }
 }
 
-ul{
-    li{
-        margin: 0px 20px;
-        height: 115px;
-        line-height: 115px;
+nav{
+    ul{
+        li{
+            margin: 0px 20px;
+            height: 115px;
+            line-height: 115px;
+        }
     }
 }
+
 
 span{
     &.active{

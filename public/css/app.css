@@ -44,7 +44,7 @@ header .d-flex {
   max-height: 100%;
 }
 
-ul li {
+nav ul li {
   margin: 0px 20px;
   height: 115px;
   line-height: 115px;
@@ -193,4 +193,42 @@ main {
 .img.last {
   height: 35px;
   margin-top: 13px;
+}
+
+footer {
+  position: relative;
+  background-image: url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer h3 {
+  color: white;
+}
+footer a {
+  color: #959595;
+}
+footer p {
+  color: #959595;
+}
+
+.d-flex.container.footer {
+  justify-content: start;
+}
+.d-flex.container.footer .column {
+  margin: 45px 30px 0 0;
+}
+
+.f-link {
+  padding-bottom: 45px;
+}
+.f-link .foot-links {
+  text-decoration: none;
+  color: #0282f9;
+}
+
+.bg-footer {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  overflow: hidden;
 }
