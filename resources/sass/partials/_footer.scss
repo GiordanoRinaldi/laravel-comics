@@ -1,5 +1,4 @@
 footer{
-    position: relative;
     background-image: url("../img/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,9 +29,49 @@ footer{
     }
 }
 
-.bg-footer{
-    position: absolute;
-    height: 100%;
-    right: 0;
-    overflow: hidden;
+
+.img-footer {
+    background-image: url("../img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: 50vw;
+    background-position-y: -10vh;
+} 
+
+
+.footer-bottom{
+    background-color: #303030;
+    height: 110px;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+.follow {
+    display: flex;
+    h3{
+        color: $mainColor;
+        line-height: 35px;
+    }
+    .social {
+        width: 35px;
+        height: 35px;
+        margin-left: 20px;
+        img {
+            width: 100%;
+        }
+    }
+}
+.btn-sign-up{
+    width: 150px;
+    height: 50px;
+    background-color: #303030;
+    color: white;
+    border: 3px solid $mainColor ;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
 }
